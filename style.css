@@ -1,0 +1,38 @@
+:root {
+  --red-link: hsl(7, 99%, 70%);
+  --yellow-link: hsl(51, 100%, 49%);
+  --green-text: hsl(167, 40%, 24%);
+  --Blue-text: hsl(198, 62%, 26%);
+  --Green-footer: hsl(167, 34%, 41%);
+
+  --Grey950: hsl(212, 27%, 19%);
+  --Grey600: hsl(213, 9%, 39%);
+  --Grey550: hsl(232, 10%, 55%);
+  --Grey400: hsl(210, 4%, 67%);
+  --White: hsl(0, 100%, 100%);
+}
+
+/* barlow-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/barlow-v13-latin-600.woff2") format("woff2");
+}
+/* fraunces-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/fraunces-v38-latin-700.woff2") format("woff2");
+}
+/* fraunces-900 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/fraunces-v38-latin-900.woff2") format("woff2");
+}
